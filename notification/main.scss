@@ -1,0 +1,149 @@
+// ==========================================================================
+// Global Settings
+// ==========================================================================
+@import 'helpers/config';
+@import 'helpers/colors';
+// Mixins
+@import 'helpers/mixins/breakpoints';
+@import 'helpers/mixins/clearfix';
+@import 'helpers/mixins/input-placeholder';
+@import 'helpers/mixins/position';
+@import 'helpers/mixins/position-center';
+@import 'helpers/mixins/reset-list';
+@import 'helpers/mixins/hardware-acceleration';
+@import 'helpers/mixins/truncate';
+@import 'helpers/mixins/background-transition';
+@import 'helpers/mixins/slanted-edge';
+
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
+
+// ==========================================================================
+// Components
+// Styles for generic UI components
+// Examples include navbar, dialog boxes, carousels, sidebar etc
+// ==========================================================================
+@import 'components/button';
+@import 'components/checkbox';
+
+
+html{
+  background-color: #E5E5E5;
+}
+
+//Notification Bar portion//
+.notification-bar{
+  height:412px;
+  width:342px;
+  background-color: white;
+  margin:200px;
+
+}
+
+.notification-head{
+height:92px;
+width:329px;
+background-color: #F9FAFB;
+margin:4px  7px 0px 7px;
+}
+
+.notification-text{
+position: relative;
+height:35px;
+width:112px;
+top:33px;
+left:20px;
+}
+
+.notification-title{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3A3B3F;
+  line-height: 20px;
+}
+
+.notification0-number{
+  height:14px;
+  width:108px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+
+//Image in Right side//
+.notification-image{
+position: absolute;
+margin-left:140px;
+top:204px;
+}
+
+
+//Container portion//
+.notification-container{
+  display: flex;
+  background-color:white;
+  margin-right: 4px;
+}
+
+//Right container with content and images//
+.left-container{
+  width:97.67%;
+  height:320px;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.left-container-content{
+  width:100%;
+  height:64px;
+  position: relative;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+.container-text{
+  font-family: Roboto;
+  font-size:14px;
+  line-height: 16.41px;
+  font-weight: 400;
+  position: absolute;
+  top:15px;
+  margin-left:60px;
+  margin-bottom: 4px;
+}
+
+.container-time{
+  font-family: Roboto;
+  font-size:12px;
+  line-height: 14.06px;
+  font-weight: 400;
+  top:35px;
+  position: absolute;
+  margin-left:60px;
+}
+
+.container-arrow{
+  position: absolute;
+  top:27px;
+  margin-left:244px ;
+
+}
+
+
+//right container 
+
+.right-container{
+  width:2.33%;
+  height:120px;
+  border-radius: 10px;
+  margin-left:2px;
+  margin-top:5px;
+  background-color: #C7CED4;
+}

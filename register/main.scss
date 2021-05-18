@@ -1,0 +1,242 @@
+// ==========================================================================
+// Global Settings
+// ==========================================================================
+@import 'helpers/config';
+@import 'helpers/colors';
+// Mixins
+@import 'helpers/mixins/breakpoints';
+@import 'helpers/mixins/clearfix';
+@import 'helpers/mixins/input-placeholder';
+@import 'helpers/mixins/position';
+@import 'helpers/mixins/position-center';
+@import 'helpers/mixins/reset-list';
+@import 'helpers/mixins/hardware-acceleration';
+@import 'helpers/mixins/truncate';
+@import 'helpers/mixins/background-transition';
+@import 'helpers/mixins/slanted-edge';
+
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+@import 'base/reset';
+@import 'base/base';
+@import 'base/typography';
+
+// ==========================================================================
+// Components
+// Styles for generic UI components
+// Examples include navbar, dialog boxes, carousels, sidebar etc
+// ==========================================================================
+@import 'components/button';
+@import 'components/checkbox';
+
+
+
+html{
+  background-color: #E5E5E5;
+}
+//Register//
+
+.register{
+  height:640px;
+  width:960px;
+  border-radius:10px;
+  display: flex;
+  justify-content: space-between;
+  margin:158px 480px 282px 480px;
+  background-color: white;
+  
+}
+
+
+.register-content{
+  width: 50%;
+  
+}
+
+
+// register form left side of register page//
+
+.register__content1{
+  height:489px;
+  background-color: white;
+  margin:56px 63px 95px 64px;
+}
+
+.register__content1__button{
+  position: relative;
+  width:353px;
+  height:16px;
+  margin-bottom: 24px;
+}
+
+
+.register__content1__text{
+  position:absolute;
+  top:0px;
+  margin-left:26px;
+  width:51px;
+  font-family: Roboto;
+  font-size:14px;
+  line-height: 16.41px;
+}
+
+.register__content1__button1{
+  width:156px;
+  position: absolute;
+  margin-left: 197px;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 16.41px;
+  top:0px;
+}
+
+//sign up text//
+.register__content1--signUp{
+  font-family: Roboto;
+  font-size:24px;
+  font-weight: 500;
+  color:#212529;
+  line-height: 28px;
+  width:239px;
+  margin-bottom: 4px;
+}
+
+.register__content1--platform{
+  font-family: Roboto;
+  color: #9EA0A5;
+  width:195px;
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  
+}
+
+//Form portion//
+
+.form{
+  // height: 200px;
+  width:352px;
+  flex-wrap: wrap;
+  max-height:200px;
+  margin-bottom: 24px;
+}
+
+
+.form_content{
+margin-bottom: 16px;
+height:50px;
+background-color:white;
+border:1px solid #E5E5E5;
+border-radius:3px;
+font-family: Roboto;
+font-size: 16px;
+line-height: 24px;
+color:#000000;  
+font-weight: 400;
+
+}
+
+.firstName{
+  width:224px;
+  margin: 13px 120px 13px 16px;
+
+}
+
+.lastName{
+  width:224px;
+  margin: 13px 120px 13px 16px;
+
+ }
+
+.email{
+  width:224px;
+  margin: 13px 120px 13px 16px;
+  
+}
+
+.register-checkbox{
+  width:259px ;
+  height:20px;
+  font-family: Roboto;
+  line-height: 20px;
+  font-size: 14px;
+  margin-top:58px;
+  margin-bottom: 24px;
+}
+
+
+
+//Signup button//
+
+.signup-button{
+  width:100%;
+  margin-bottom: 94px;
+  background-color: #1665D8;
+  border-radius:3px;
+  color: white;
+  margin-top: 24px;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+
+//right side of the register page//
+.register__content2{
+  position: relative;
+  margin-left:7px;
+  
+}
+
+.register__content2--text{
+  position: absolute;
+  top :518px;
+  left:23px;
+  right:21px;
+  bottom: 16px;
+  font-family: Roboto;
+  height:50px;
+  width:431px;
+  line-height: 25px;
+  color: white;
+  font-size: 16px;
+}
+
+
+.register__content2--foot{
+  position: absolute;
+  top:584px;
+  left:23px;
+  height:32px;
+  width:153px;
+
+}
+.register__content2--foottext1{
+  position: absolute;
+  width:104px;
+  top:0px;
+  margin-left:44px;
+  margin-bottom:2px;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto;
+  line-height: 16.41px;
+  color: white;
+  height: 16px;
+}
+
+.register__content2--foottext2{
+  position: absolute;
+  width:109px;
+  top:18px;
+  margin-left:44px;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Roboto;
+  line-height: 14.06px;
+  color: white;
+  height: 16px;
+}
